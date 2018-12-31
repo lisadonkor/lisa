@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="weather.css">
+		<link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+        <script src="js/all.js"></script>
+        <title>Home | Mount Weather</title>
+    </head>
+    <body>
+            <div class="jumbotron" style="margin-bottom:0px; color:rgb(236, 61, 207); background-color: aqua;">
+                <h2 class="text-center" style="font-size:50px; font-weight:600; ">Welcome to Mount Weather
+					<img src="mount.png" style="height: 80px; width: 170px;">
+				</h2>
+            </div>
+
+            <div class="container" style="height: 650px;">
+                <div class="row">
+                    <!-- <h3 class=" text-primary" id="fw">Enter City Name</h3> -->
+                    <span id="error"></span>
+                </div>
+
+                <div class="row form-group  form-inline" id="rowdiv" style="margin-top:80; margin-bottom: 20;">
+                    <input type="text" name="city" id="city" class="form-control" style="float: left; display: inline; width: 50%; cellpadding: 20%;" placeholder="Enter City Name">
+                    <button id="submitWeather" class="btn btn-primary" style="float: left; display: inline; width: 50%; padding-center-left: 30%;">Search City</button>
+                </div>
+
+                <div id="show"></div>
+
+
+
+            </div>
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row" style="padding-top:20px;">
+                        <p style="color: white; font-size:20px; font-weight: bold; padding-left: 38%;">Copyright &copy; Mount Weather</p>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+
+ 
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <!-- bootstrap tooltips -->
+            <script src="js/popper.min.js"></script>
+            <!-- bootstrap core javascript -->
+            <script src="js/bootstrap.min.js"></script>
+                <script src="js/bootstrap.bundle.min.js"></script>
+                <script src="js/scrollreveal.min.js"></script>
+                <script src="weatherjs.js"></script>
+            
+
+    </body>
+</html>
